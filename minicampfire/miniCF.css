@@ -1,0 +1,57 @@
+body.minicf {
+  /*#Sidebar #SidebarTop, */
+
+}
+body.minicf #launchbar,
+body.minicf #corner_logo,
+body.minicf #Header {
+  display: none;
+}
+body.minicf #Sidebar:hover {
+  opacity: 1;
+}
+body.minicf #Sidebar {
+  right: 10px;
+  background: #fff;
+  border: 2px solid #efefef;
+  top: 10px !important;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  opacity: .5;
+  -webkit-transition: opacity 0.6s ease-in-out;
+  -moz-transition: opacity 0.6s ease-in-out;
+  transition: opacity 0.6s ease-in-out;
+  padding: 5px;
+  width: 20%;
+}
+body.minicf #search_form,
+body.minicf #guest_access,
+body.minicf #conference,
+body.minicf #room_locking,
+body.minicf #files,
+body.minicf #topic {
+  display: none;
+}
+body.minicf #Sidebar #participants ul.participant-list {
+  height: auto !important;
+}
+body.minicf #Sidebar #room_topic {
+  width: 95% !important;
+}
+body.minicf .Left,
+body.minicf .speak {
+  width: 100% !important;
+}
+body.minicf #Wrapper {
+  padding: 0 !important;
+}
+body.minicf .Left .col {
+  background: #fff !important;
+  padding: 0 !important;
+}
+body.minicf #chat td.body div {
+  width: 95% !important;
+}

@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Mini-Campfire",
+	"version": "2.0.0",
+	"icons": {
+		"128": "logo128.png",
+		"16": "logo16.png",
+		"48": "logo48.png"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"content_scripts": [ {
+		"matches": ["https://*.campfirenow.com/*"],
+		"css": ["miniCF.css"]
+	}],
+	"page_action": {
+		"default_icon": "logo16.png",
+		"default_title": "Mini-Campfire"
+	},
+	"permissions": [ "tabs", "activeTab" ]
+}
